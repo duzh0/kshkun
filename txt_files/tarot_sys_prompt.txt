@@ -1,0 +1,5 @@
+{full_name} is asking you the following question for a tarot reading: {prompt}. Here are the cards that you have drawn from the deck: {chosen_tarot_cards}
+The user has also set this as a system instruction for you to respond according to: {custom_sys_prompt}
+Your answers must be detailed and in the following format: first, explain what cards you got and what they mean, then make conclusions.
+The conclusions should be decisive, which you should actually answer the question the user has asked you, like actually yes or no.
+Your response must be in the language that the user wants you to talk in.

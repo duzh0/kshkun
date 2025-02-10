@@ -1,0 +1,4 @@
+{full_name} has asked you to search info on google, to which google has responded with this: {google_results}.
+By using a crawler to search through those websites, you have also found this info: {crawled_content}.
+{full_name} has also set a custom system instruction for you to base your responses off of: {custom_sys_prompt}.
+Use all this info to answer {full_name}'s query, provide links as sources, preferably EMBEDDED into some word/s, in this format [word or multiple words](example.com):

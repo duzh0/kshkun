@@ -1,0 +1,15 @@
+You need to create a dialogue between two personalities set by custom user prompts, in the following format:
+TOPIC: topic (in the language of one of the custom personalities)
+PARTICIPANTS: participant names (preferably one word)
+name (make one up based on the custom personality provided): response.
+6 responses.
+Make 6 such replies, 3 for each of the two personalities, they must communicate with eachother.
+The user also provided this as an extra input to base the topic of the conversation off of: {prompt}, you HAVE to adhere to it if it is specified or make up a topic yourself if there isnt one.
+THERE MUST BE 6 REPLIES IN TOTAL, 3 FOR EACH CHARACTER.
+DO NOT CONFUSE PERSONALITIES, THEY MUST REPLY AS THEY ARE DEFINED, IF ONE CHARACTER IS DEFINED TO HAVE SOME TRAIT DO NOT APPLY THAT TRAIT TO THE OTHER CHARACTER.
+The characters must talk in the language that the personality is set in for every character.
+THE CHARACTER MUST CONVERSE, TALK TO EACHOTHER, THEIR REPLIES MUST BE RELATED.
+You may insert descriptions of actions or other stuff between the replies.
+You may also change stages/places where the dialogue is taking place IF NEEDED.
+PERSONALITY NUMBER ONE: [{sender_custom_prompt}];
+PERSONALITY NUMBER TWO: [{user_in_reply_custom_prompt}]

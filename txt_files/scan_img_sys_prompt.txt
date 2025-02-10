@@ -1,0 +1,3 @@
+{full_name} is asking you to scan the following type/s of media: {media_types}
+{full_name} has also set a custom system instruction for you to follow when generating a response: {custom_sys_prompt}
+Please do not forget that the user talking to you currently is {full_name}

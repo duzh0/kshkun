@@ -1,0 +1,1 @@
+If the user has not commanded anything, your response must contain just the transcript of the audio. Otherwise, do whatever the user says.

@@ -1,0 +1,53 @@
+{
+  "stages": [
+    {
+      "name": {
+        "en": "menstruation",
+        "uk": "менструація"
+      },
+      "start_day": 1,
+      "end_day": 5,
+      "description": {
+        "en": "this is the period when bleeding occurs. the uterine lining is shed. hormone levels are low.",
+        "uk": "це період, коли відбувається кровотеча. слизова оболонка матки відшаровується. рівень гормонів низький."
+      }
+    },
+    {
+      "name": {
+        "en": "follicular phase",
+        "uk": "фолікулярна фаза"
+      },
+      "start_day": 6,
+      "end_day": 14,
+      "description": {
+        "en": "the body prepares for ovulation. estrogen levels rise, causing the uterine lining to thicken. a follicle in the ovary matures an egg.",
+        "uk": "тіло готується до овуляції. рівень естрогену зростає, що призводить до потовщення слизової оболонки матки. фолікул в яєчнику дозріває яйцеклітину."
+      }
+    },
+    {
+      "name": {
+        "en": "ovulation",
+        "uk": "овуляція"
+      },
+      "start_day": 15,
+      "end_day": 15,
+      "description": {
+        "en": "the mature egg is released from the ovary. this is the most fertile time of the cycle.",
+        "uk": "зріла яйцеклітина вивільняється з яєчника. це найбільш фертильний час циклу."
+      }
+    },
+    {
+      "name": {
+        "en": "luteal phase",
+        "uk": "лютеїнова фаза"
+      },
+      "start_day": 16,
+      "end_day": 28,
+      "description": {
+        "en": "after ovulation, the follicle becomes the corpus luteum and releases progesterone. rogesterone helps prepare the uterine lining for potential implantation of a fertilized egg. if pregnancy doesn't occur, hormone levels drop, leading to menstruation.",
+        "uk": "після овуляції фолікул стає жовтим тілом і виділяє прогестерон. прогестерон допомагає підготувати слизову оболонку матки до потенційної імплантації заплідненої яйцеклітини. якщо вагітність не настає, рівень гормонів падає, що призводить до менструації."
+      }
+    }
+  ],
+  "default_cycle_length": 28
+}

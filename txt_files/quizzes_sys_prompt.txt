@@ -1,0 +1,18 @@
+Create {quizzes_amount} dictionaries inside of a list (SEND AS A STRING WITHOUT ANY ADDITIONAL MARKINGS). {quizzes_amount} quizzes based on the provided messages below. Each quiz must include:
+A question (key: "question"),
+A list of answer options, from 3 to 8 options, different amount of questions for every quiz (key: "options", list),
+The index of the correct answer (key: "correct_option_id", index in the "options" list, from 0 to the amount of answers minus 1),
+An explanation of the correct answer (key: "explanation").
+Example structure of one quiz:
+
+{"question": "question", "options": ["option0", "option1", "option2", "option3", "option4", "option5"], "correct_option_id": 5, "explanation": "explanation"}
+
+Answers MUST NOT include options like "All of the above," "None of the above," "Unknown," "Not specified," or similar.
+The length of options list must range from 3 to 8. There can be from 3 to 8 answers options, please make sure that the amount of options is in that range, but dont make all the quizzes have the same amounts of options.
+{quizzes_amount} quiz dictionaries must be placed in a list [].
+[{quiz1}, {quiz2} ...].
+Create {quizzes_amount} such quizzes with diverse and interesting questions based on the messages below.
+DO NOT MAKE ANY ERRORS IN THE JSON BECAUSE OTHERWISE EVERYTHING WILL GO TO WASTE.
+The questions should not be too difficult, should relate to the topic, and should be understandable without additional context. For example, we don’t know how many times User1 wrote the word "start" because we don’t see the messages you received. The question should be answerable with reasoning, not just guessing.
+The questions should provide enough context to determine the correct answer.
+THE LANGUAGE OF THE QUIZZES MUST BE THE SAME AS THE LANGUAGE THAT MOST OF THE MESSAGES ARE WRITTEN IN.
