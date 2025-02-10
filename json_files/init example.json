@@ -1,0 +1,33 @@
+{
+    "CHAT_IDS": {
+        "YAPIDARAS": -100777777777777777,
+        "YANECHMO": -10013121488 // examples. name: id
+    },
+    "ACCOUNT_IDS": {
+        "YANA_CYST": 171871187287128172812728,
+        "UYOBYSHE": 199191991919
+    },
+    "KSHKUN_CREDENTIALS": {
+        "id": "11169",
+        "hash": "cockandballs",
+        "token": ""
+    },
+    "CHECKER_ACC_CREDENTIALS": {
+        "id": "69111",
+        "hash": "yasasuhuyi",
+        "pnumber": "+38066666666"
+    },
+    "SERVICES_API": {
+        "img_generation_key": "pydryla", // unused
+        "google_api_key": "googlekantorahuyisosiv",
+        "google_cse_id": "yayibavgugla",
+        "gemini_api_key": "pediki",
+        "weather_api_key": "+18 unichtozhenie rusoskota na zaporozhskom napravlenii",
+        "map_search_api_key": "useless kal"
+    },
+    "LINKS": {
+        "duzhocoin_image": "https://i.imgur.com/yappidrilla.png",
+        "random_chat_bubble": "https://i.imgur.com/kakashky.png",
+        "generated_chat_bubble": "https://i.imgur.com/ppppp.png"
+    }
+}
